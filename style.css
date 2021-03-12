@@ -61,6 +61,7 @@ article{
 article article:first-of-type{
 
     text-align: center;
+    height: 400px;
     float: left;
     width:45% ;
     margin: 15px;
@@ -72,7 +73,7 @@ article article:first-of-type{
 article article:last-of-type{
 
     text-align: left;
-    height: 300;
+    height: 400px;
     float: right;
     width:45% ;
     margin: 15px;
@@ -101,6 +102,12 @@ button{
 
 button:hover {
     background-color: yellow;
+  }
+
+  footer{
+      width: 100%;
+      height: 80px;
+      background-color:rgb(75, 75, 75) ;
   }
 
 
